@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+header{
+	background-color: lightblue;
+	height: 300px;
+	padding-top: 20px;
+}
+.container{
+	background-color: gold;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.logo img{
+	width: 100px;
+}
+section > img{
+	width: 50%;
+}
+nav, nav ul {
+	display: inline-block;
+}
+nav li{
+	display: inline-block;
+	width: 100px;
+	background-color: red;
+	border: 1px solid black;
+}
+nav, .logo{
+	vertical-align: middle;
+}
+.inline-section {
+	background-color: pink;
+	padding: 20px;
+}
+.inline-section p{
+	display: inline-block;
+	width: 200px;
+}
+.inline-section p, .inline-section img{
+	vertical-align: middle;
+}
+.homework{
+	background-color: lightblue;
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+footer{
+	background-color: yellow;
+}
