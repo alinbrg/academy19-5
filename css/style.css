@@ -1,3 +1,6 @@
+@import url("https://cdn.web-fonts.ge/fonts/alk-rex-bold/css/alk-rex-bold.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
 *{
 	margin: 0;
 	padding: 0;
@@ -45,6 +48,7 @@ nav, .logo{
 .inline-section p{
 	display: inline-block;
 	width: 200px;
+	font-family: "ALK Rex Bold", sans-serif;
 }
 .inline-section p, .inline-section img{
 	vertical-align: middle;
@@ -55,6 +59,14 @@ nav, .logo{
 	margin-left: auto;
 	margin-right: auto;
 }
+.homework p{
+	font-family: 'Sevillana', cursive;
+}
+.homework h2{
+	font-family: 'ALKDots';
+}
 footer{
 	background-color: yellow;
+	font-size: 30px;
+	font-family: 'Roboto';
 }
